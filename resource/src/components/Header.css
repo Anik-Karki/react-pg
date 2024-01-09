@@ -1,0 +1,119 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;/* Header.css */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1440px; /* Set the total width of the header */
+    height: 118px; /* Set the total height of the header */
+    margin: 0 auto; /* Center the header on the page */
+  }
+  .content-section {
+    padding-top: 20px; /* Adjust as needed */
+  }
+  
+  .logo-container img {
+    width: 161px;
+    height: 53px;
+    margin-left: 150px;
+  }
+  
+  .navigation-container nav {
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+  }
+  
+  .nav-item:hover {
+    color: blue;
+    text-decoration: underline;
+  }
+  
+  .search-container {
+    position: relative;
+    margin-right: 200px
+  }
+  
+  .search-icon {
+    font-size: 24px; /* You can adjust the font size as needed */
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 1227px;
+    color: blue;
+    cursor: pointer;
+    margin-right: 200px;
+  }
+  
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container img {
+  width: 161px;
+  height: 53px;
+  margin-left: 50px; /* Adjusted margin for the logo on the left */
+}
+
+.navigation-container nav {
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  color: black;
+}
+
+.nav-item:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+.search-container {
+    position: relative;
+    margin-right: 70px;
+  }
+  
+  .search-icon {
+    font-size: 18.71px;
+    width: 18.71px;
+    height: 18.71px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35px;
+    left: 1207px;
+    margin-right: 40px;
+  }
+  
+  .search-background {
+    width: 48px;
+    height: 48px;
+    background-color: blue;
+    position: absolute;
+    top: 28px; /* Adjusted to center the icon within the circle */
+    left: 1196px; /* Adjusted to center the icon within the circle */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

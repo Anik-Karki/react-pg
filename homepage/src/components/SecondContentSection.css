@@ -1,0 +1,50 @@
+/* SecondContentSection.css */
+.second-content-section {
+    margin-top: 20px; /* Add margin as needed */
+    margin-left: 50px;
+  }
+  
+  .section-title {
+    margin-left: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  
+.image-tabs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 210px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.image-tab {
+  width: 350px;
+  height: 410px;
+  margin-bottom: 0px; /* Add margin for spacing between rows */
+  margin-right: 30px;
+  overflow: hidden; /* Ensure the image does not overflow */
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.image-tab img {
+  width: 350px;
+  height: 345px;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+ 

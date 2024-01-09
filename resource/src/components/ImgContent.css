@@ -1,0 +1,27 @@
+/* ImgContent.css */
+.img-content1{
+    position: relative;
+    overflow: hidden; 
+    width: 1000%;
+    margin-top: 80px;
+    /* Ensure the overflow is hidden to prevent scrollbars */
+  }
+  
+  .background-image1 {
+    width: 100%; /* 100% of viewport width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 40px;
+    display: block;
+  }
+  
+  /* You can adjust the position of the overlay image using percentage values */
+  .blimg {
+    position: absolute;
+    width: 509px; /* Adjust as needed */
+    height: 426px; /* Adjust as needed */
+    margin-top: -245px;
+    left: 70%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    
+  }
+  

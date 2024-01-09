@@ -1,0 +1,62 @@
+/* ContentSection.css */
+.content-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px; /* Adjust as needed */
+    margin-left: 105px;
+  }
+  
+  .text-content {
+    width: 634px;
+  }
+  
+  h2 {
+    font-size: 30px;
+    color:  #04294E;
+    
+    line-height: 42px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .buttons-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .play-audio-button,
+  .learn-more-button {
+    width: 189px;
+    height: 56.01px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .play-audio-button {
+    background-color: blue;
+    color: white;
+  }
+  
+  .learn-more-button {
+    background-color: white;
+    color: blue;
+    border: 2px solid blue;
+  }
+  
+  .image-content {
+    width: 442.62px;
+    margin-right: 200px;
+  }
+  
+  .access1 {
+    width: 48px;
+    height: 48.01px;
+    top: 220px;
+    left: 1470px;
+    position: absolute;
+    margin-right: 0px;
+  }
+  

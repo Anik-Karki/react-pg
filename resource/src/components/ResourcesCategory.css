@@ -1,0 +1,125 @@
+/* ResourcesCategory.css */
+
+.resources-category1 {
+    text-align: left;
+    color: #04294E;
+    margin-left: 20px;
+  }
+  
+  
+  .title1 {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left; /* Center the title */
+  }
+  
+  .description1 {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left; /* Center the description */
+    margin-left: 150px;
+  }
+
+  
+  .category-column {
+   
+  width: 255px;
+  height: 898px;
+  top: 2404px;
+  left: 169px;
+  border-radius: 8px;
+  border: 2px solid #F5F5F3;
+  padding: 20px; /* Add padding as needed */
+  margin-left: 150px;
+  margin-bottom: 40px;
+}
+
+.category-title {
+  font-family: 'Lato';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.category-text {
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #444444;
+  margin-top: 30px;
+}
+.box-section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 480px;
+  margin-top: -940px;
+  
+  
+}
+
+.article-post {
+  display: flex;
+  width: 764px;
+  height: 202px;
+  gap: 24px;
+  margin-bottom: 25px; 
+}
+
+.article-image {
+  width: 202px;
+  height: 202px;
+  border-radius: 8px;
+  /* Add background-image or other styling as needed */
+}
+
+.article-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagination {
+  display: flex;
+  gap: 12.5px;
+  margin-top: 20px;
+}
+
+.nav-button,
+.page-button {
+  width: 40px;
+  height: 40px;
+  padding: 12.5px;
+  border-radius: 10px;
+  border: 1.25px solid #F1F1F1;
+  background: linear-gradient(0deg, #F1F1F1, #F1F1F1),
+              linear-gradient(0deg, #FFFFFF, #FFFFFF);
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: #2F80ED;
+    color: #fff;
+  }
+
+  &.active {
+    background-color: red;
+    color: white;
+  }
+}
+
+/* Style for '...' */
+.page-button:nth-child(4) {
+  cursor: default; /* Disable hover effect on '...' */
+  pointer-events: none;
+}
